@@ -1,0 +1,375 @@
+====================================================================================================
+jobid=85797 cornerid=741013 uut=7
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch7.log?page=1&corner_id=741013
+====================================================================================================
+	 Wed Mar 20 15:09:11 PDT 2024 switch7 TESTCASE START - 63754033 {Powercycling Testcase1}
+	 Wed Mar 20 15:11:53 PDT 2024 switch7 TESTCASE START - 63754034 {Diag Testcase1}
+	 Wed Mar 20 15:14:30 PDT 2024 switch7 TESTCASE START - 63754035 {Diag Testcase2}
+			Wed Mar 20 15:22:40 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: sysinit output
+	 Wed Mar 20 15:22:51 PDT 2024 switch7 TESTCASE START - 63754036 {Diag Testcase3}
+	 Wed Mar 20 15:31:42 PDT 2024 switch7 TESTCASE START - 63754037 {Diag Testcase4}
+	 Wed Mar 20 15:33:02 PDT 2024 switch7 TESTCASE START - 63754038 {Diag Testcase5}
+	 Wed Mar 20 15:35:19 PDT 2024 switch7 TESTCASE START - 63754039 {OpticalTest Testcase1}
+	 Wed Mar 20 15:37:22 PDT 2024 switch7 TESTCASE START - 63754040 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Wed Mar 20 15:45:26 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Wed Mar 20 15:46:28 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			008 15/16  001   000:01:50  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  512
+			008 16/15  002   000:00:06  Halted/RxErr  Sym,Err                5  FAIL**  Ext    Gig  512
+			012 23/24  001   000:00:08  Halted/RxErr  Sym,Err                3  FAIL**  Ext    Gig  512
+			012 24/23  001   000:01:50  UserTerm      RxCol,Uns,Sym,Err      8  FAIL**  Ext    Gig  512
+			Wed Mar 20 15:48:29 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 15:48:29 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 15:51:59 PDT 2024 switch7 TESTCASE START - 63754041 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Wed Mar 20 15:59:39 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			012 23/24  001   000:01:45  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  512
+			012 24/23  001   000:00:08  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  512
+			016 31/32  001   000:00:08  Halted/RxErr  Sym,Err                3  FAIL**  Ext    Gig  512
+			016 32/31  001   000:01:46  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  512
+			Wed Mar 20 16:02:37 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 16:02:37 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 16:06:08 PDT 2024 switch7 TESTCASE START - 63754042 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Wed Mar 20 16:14:18 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 16:17:31 PDT 2024 switch7 TESTCASE START - 63754043 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Wed Mar 20 16:25:33 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			012 23/24  001   000:00:04  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  512
+			012 24/23  001   000:01:45  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  512
+			Wed Mar 20 16:28:30 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 16:28:30 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 16:32:01 PDT 2024 switch7 TESTCASE START - 63754044 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Wed Mar 20 16:39:57 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			012 23/24  001   000:01:45  UserTerm      Uns,Sym,Err            8  FAIL**  Ext    Gig  64
+			012 24/23  001   000:00:04  Halted/RxErr  RxCol,Err              3  FAIL**  Ext    Gig  64
+			Wed Mar 20 16:42:54 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Wed Mar 20 16:46:25 PDT 2024 switch7 TESTCASE START - 63754045 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Wed Mar 20 16:54:27 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Wed Mar 20 16:55:29 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			012 23/24  001   000:01:51  UserTerm      Uns,Sym,Err            8  FAIL**  Ext    Gig  64
+			012 24/23  001   000:00:06  Halted/RxErr  RxCol,Err              3  FAIL**  Ext    Gig  64
+			016 31/32  001   000:00:06  Halted/RxErr  NoActivity             2  FAIL**  Ext    Gig  64
+			016 32/31  001   000:01:51  UserTerm      Uns,Sym,Err            8  FAIL**  Ext    Gig  64
+			Wed Mar 20 16:57:29 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Wed Mar 20 17:01:00 PDT 2024 switch7 TESTCASE START - 63754046 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Wed Mar 20 17:08:59 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			011 21/22  001   000:00:08  Halted/RxErr  RxCol,Err              3  FAIL**  Ext    Gig  64
+			011 22/21  001   000:01:45  UserTerm      Uns,Sym,Err            8  FAIL**  Ext    Gig  64
+			012 23/24  001   000:00:08  Halted/RxErr  RxCol,Sym,Err          3  FAIL**  Ext    Gig  64
+			012 24/23  001   000:01:45  UserTerm      Uns,Sym,Err            8  FAIL**  Ext    Gig  64
+			Wed Mar 20 17:11:56 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Wed Mar 20 17:15:27 PDT 2024 switch7 TESTCASE START - 63754047 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Wed Mar 20 17:23:31 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			011 21/22  001   000:00:02  Halted/RxErr  NoActivity             2  FAIL**  Ext    Gig  64
+			Wed Mar 20 17:26:28 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Wed Mar 20 17:29:59 PDT 2024 switch7 TESTCASE START - 63754048 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Wed Mar 20 17:37:58 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			011 21/22  001   000:00:08  Halted/RxErr  Sym,Err                3  FAIL**  Ext    Gig  9198
+			011 22/21  001   000:01:45  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  9198
+			016 31/32  001   000:00:08  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  9198
+			016 32/31  001   000:01:46  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  9198
+			Wed Mar 20 17:40:55 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 17:40:55 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 17:44:26 PDT 2024 switch7 TESTCASE START - 63754049 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Wed Mar 20 17:52:31 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			011 21/22  001   000:00:04  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  9198
+			Wed Mar 20 17:55:29 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 17:55:29 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 17:58:59 PDT 2024 switch7 TESTCASE START - 63754050 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Wed Mar 20 18:07:03 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 18:10:16 PDT 2024 switch7 TESTCASE START - 63754051 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Wed Mar 20 18:18:19 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Wed Mar 20 18:19:21 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			016 31/32  001   000:00:04  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  9198
+			016 32/31  001   000:01:51  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  9198
+			Wed Mar 20 18:21:22 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 18:21:22 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 18:24:52 PDT 2024 switch7 TESTCASE START - 63754052 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741014 uut=7
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch7.log?page=1&corner_id=741014
+====================================================================================================
+	 Wed Mar 20 11:55:09 PDT 2024 switch7 TESTCASE START - 63754133 {Powercycling Testcase1}
+	 Wed Mar 20 11:58:10 PDT 2024 switch7 TESTCASE START - 63754134 {Diag Testcase1}
+	 Wed Mar 20 12:00:41 PDT 2024 switch7 TESTCASE START - 63754135 {Diag Testcase2}
+			Wed Mar 20 12:08:46 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: sysinit output
+	 Wed Mar 20 12:08:57 PDT 2024 switch7 TESTCASE START - 63754136 {Diag Testcase3}
+	 Wed Mar 20 12:17:35 PDT 2024 switch7 TESTCASE START - 63754137 {Diag Testcase4}
+	 Wed Mar 20 12:18:47 PDT 2024 switch7 TESTCASE START - 63754138 {Diag Testcase5}
+	 Wed Mar 20 12:20:57 PDT 2024 switch7 TESTCASE START - 63754139 {OpticalTest Testcase1}
+	 Wed Mar 20 12:22:55 PDT 2024 switch7 TESTCASE START - 63754140 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Wed Mar 20 12:31:04 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Wed Mar 20 12:32:06 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			008 15/16  001   000:01:50  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  512
+			008 16/15  002   000:00:08  Halted/RxErr  Sym,Err                5  FAIL**  Ext    Gig  512
+			009 17/18  001   000:01:50  UserTerm      RxCol,Uns,Sym,Err      8  FAIL**  Ext    Gig  512
+			009 18/17  001   000:00:10  Halted/RxErr  NoActivity             2  FAIL**  Ext    Gig  512
+			016 31/32  001   000:00:10  Halted/RxErr  Sym,Err                3  FAIL**  Ext    Gig  512
+			016 32/31  001   000:01:51  UserTerm      Uns,Sym,Err            8  FAIL**  Ext    Gig  512
+			Wed Mar 20 12:34:06 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 12:34:06 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 12:37:37 PDT 2024 switch7 TESTCASE START - 63754141 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Wed Mar 20 12:45:43 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 12:48:56 PDT 2024 switch7 TESTCASE START - 63754142 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Wed Mar 20 12:56:44 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 12:59:57 PDT 2024 switch7 TESTCASE START - 63754143 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Wed Mar 20 13:07:41 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			009 17/18  001   000:01:45  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  512
+			009 18/17  001   000:00:04  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  512
+			Wed Mar 20 13:10:39 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 13:10:39 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 13:14:09 PDT 2024 switch7 TESTCASE START - 63754144 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Wed Mar 20 13:22:14 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 13:25:27 PDT 2024 switch7 TESTCASE START - 63754145 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Wed Mar 20 13:33:27 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Wed Mar 20 13:34:30 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			016 31/32  001   000:00:04  Halted/RxErr  RxCol,Err              3  FAIL**  Ext    Gig  64
+			016 32/31  001   000:01:51  UserTerm      Uns,Sym,Err            8  FAIL**  Ext    Gig  64
+			Wed Mar 20 13:36:30 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Wed Mar 20 13:40:01 PDT 2024 switch7 TESTCASE START - 63754146 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Wed Mar 20 13:47:58 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 13:51:12 PDT 2024 switch7 TESTCASE START - 63754147 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Wed Mar 20 13:59:13 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 14:02:26 PDT 2024 switch7 TESTCASE START - 63754148 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Wed Mar 20 14:10:25 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 14:13:38 PDT 2024 switch7 TESTCASE START - 63754149 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Wed Mar 20 14:21:29 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 14:24:42 PDT 2024 switch7 TESTCASE START - 63754150 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Wed Mar 20 14:32:36 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 14:35:49 PDT 2024 switch7 TESTCASE START - 63754151 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Wed Mar 20 14:43:51 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Wed Mar 20 14:44:53 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			016 32/31  001   000:01:51  UserTerm      Sym,Err                1  FAIL**  Ext    Gig  9198
+			Wed Mar 20 14:46:53 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 14:46:53 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 14:50:24 PDT 2024 switch7 TESTCASE START - 63754152 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741015 uut=7
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch7.log?page=1&corner_id=741015
+====================================================================================================
+	 Wed Mar 20 18:38:08 PDT 2024 switch7 TESTCASE START - 63754233 {Powercycling Testcase1}
+	 Wed Mar 20 18:40:28 PDT 2024 switch7 TESTCASE START - 63754234 {Diag Testcase1}
+	 Wed Mar 20 18:43:15 PDT 2024 switch7 TESTCASE START - 63754235 {Diag Testcase2}
+			Wed Mar 20 18:51:20 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: sysinit output
+	 Wed Mar 20 18:51:31 PDT 2024 switch7 TESTCASE START - 63754236 {Diag Testcase3}
+	 Wed Mar 20 19:00:15 PDT 2024 switch7 TESTCASE START - 63754237 {Diag Testcase4}
+	 Wed Mar 20 19:01:30 PDT 2024 switch7 TESTCASE START - 63754238 {Diag Testcase5}
+	 Wed Mar 20 19:05:23 PDT 2024 switch7 TESTCASE START - 63754239 {OpticalTest Testcase1}
+	 Wed Mar 20 19:08:24 PDT 2024 switch7 TESTCASE START - 63754240 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Wed Mar 20 19:16:20 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 19:19:33 PDT 2024 switch7 TESTCASE START - 63754241 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Wed Mar 20 19:27:34 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			016 31/32  001   000:00:04  Halted/RxErr  RxCol,Err              3  FAIL**  Ext    Gig  512
+			016 32/31  001   000:01:46  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  512
+			Wed Mar 20 19:30:32 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 19:30:32 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 19:34:02 PDT 2024 switch7 TESTCASE START - 63754242 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Wed Mar 20 19:41:50 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Wed Mar 20 19:42:52 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			008 15/16  001   000:01:50  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  512
+			008 16/15  002   000:00:04  Halted/RxErr  Sym,Err                5  FAIL**  Ext    Gig  512
+			016 32/31  001   000:01:51  UserTerm      Sym,Err                1  FAIL**  Ext    Gig  512
+			Wed Mar 20 19:44:53 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 19:44:53 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 19:48:23 PDT 2024 switch7 TESTCASE START - 63754243 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Wed Mar 20 19:56:09 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 19:59:22 PDT 2024 switch7 TESTCASE START - 63754244 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Wed Mar 20 20:07:06 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 20:10:19 PDT 2024 switch7 TESTCASE START - 63754245 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Wed Mar 20 20:18:05 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 20:21:18 PDT 2024 switch7 TESTCASE START - 63754246 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Wed Mar 20 20:29:14 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 20:32:27 PDT 2024 switch7 TESTCASE START - 63754247 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Wed Mar 20 20:40:25 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 20:43:38 PDT 2024 switch7 TESTCASE START - 63754248 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Wed Mar 20 20:51:36 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 20:54:49 PDT 2024 switch7 TESTCASE START - 63754249 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Wed Mar 20 21:02:46 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 21:05:59 PDT 2024 switch7 TESTCASE START - 63754250 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Wed Mar 20 21:13:45 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Wed Mar 20 21:16:58 PDT 2024 switch7 TESTCASE START - 63754251 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Wed Mar 20 21:25:05 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			016 31/32  001   000:00:04  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  9198
+			016 32/31  001   000:01:46  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  9198
+			Wed Mar 20 21:28:02 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 21:28:02 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 21:31:33 PDT 2024 switch7 TESTCASE START - 63754252 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741016 uut=7
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch7.log?page=1&corner_id=741016
+====================================================================================================
+	 Wed Mar 20 21:54:07 PDT 2024 switch7 TESTCASE START - 63754333 {Powercycling Testcase1}
+	 Wed Mar 20 21:56:42 PDT 2024 switch7 TESTCASE START - 63754334 {Diag Testcase1}
+	 Wed Mar 20 21:59:16 PDT 2024 switch7 TESTCASE START - 63754335 {Diag Testcase2}
+			Wed Mar 20 22:07:14 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: sysinit output
+	 Wed Mar 20 22:07:24 PDT 2024 switch7 TESTCASE START - 63754336 {Diag Testcase3}
+	 Wed Mar 20 22:16:03 PDT 2024 switch7 TESTCASE START - 63754337 {Diag Testcase4}
+	 Wed Mar 20 22:17:15 PDT 2024 switch7 TESTCASE START - 63754338 {Diag Testcase5}
+	 Wed Mar 20 22:19:27 PDT 2024 switch7 TESTCASE START - 63754339 {OpticalTest Testcase1}
+	 Wed Mar 20 22:21:24 PDT 2024 switch7 TESTCASE START - 63754340 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Wed Mar 20 22:29:32 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			012 23/24  001   000:00:04  Halted/RxErr  Sym,Err                4  FAIL**  Ext    Gig  512
+			012 24/23  001   000:00:04  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  512
+			Wed Mar 20 22:32:30 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 22:32:30 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 22:36:00 PDT 2024 switch7 TESTCASE START - 63754341 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Wed Mar 20 22:44:15 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			012 23/24  001   000:00:04  Halted/RxErr  RxCol,Err              3  FAIL**  Ext    Gig  512
+			012 24/23  001   000:01:46  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  512
+			Wed Mar 20 22:47:13 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 22:47:13 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 22:50:43 PDT 2024 switch7 TESTCASE START - 63754342 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Wed Mar 20 22:58:40 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			012 23/24  001   000:00:04  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  512
+			Wed Mar 20 23:01:38 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 23:01:38 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 23:05:09 PDT 2024 switch7 TESTCASE START - 63754343 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Wed Mar 20 23:13:21 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			012 23/24  001   000:01:45  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  512
+			Wed Mar 20 23:16:18 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Wed Mar 20 23:16:18 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Wed Mar 20 23:19:49 PDT 2024 switch7 TESTCASE START - 63754344 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Wed Mar 20 23:27:57 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			012 23/24  001   000:00:04  Halted/RxErr  RxCol,Err              3  FAIL**  Ext    Gig  64
+			012 24/23  001   000:01:46  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  64
+			Wed Mar 20 23:30:55 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Wed Mar 20 23:34:26 PDT 2024 switch7 TESTCASE START - 63754345 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Wed Mar 20 23:42:39 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Wed Mar 20 23:43:42 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			012 23/24  001   000:00:02  Halted/RxErr  Uns,Sym,Err            4  FAIL**  Ext    Gig  64
+			012 24/23  002   000:00:02  Halted/RxErr  RxCol,Err              5  FAIL**  Ext    Gig  64
+			Wed Mar 20 23:45:42 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Wed Mar 20 23:49:12 PDT 2024 switch7 TESTCASE START - 63754346 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Wed Mar 20 23:57:21 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			012 23/24  001   000:01:46  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  64
+			012 24/23  001   000:00:04  Halted/RxErr  RxCol,Err              3  FAIL**  Ext    Gig  64
+			Thu Mar 21 00:00:19 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Thu Mar 21 00:03:49 PDT 2024 switch7 TESTCASE START - 63754347 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Thu Mar 21 00:12:01 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Thu Mar 21 00:12:01 PDT 2024 switch7 FAILED VALIDATION - Reported down while executing command: traf output
+			Thu Mar 21 00:13:04 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			012 23/24  001   000:01:51  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  64
+			Thu Mar 21 00:15:04 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Thu Mar 21 00:18:35 PDT 2024 switch7 TESTCASE START - 63754348 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Thu Mar 21 00:26:42 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Thu Mar 21 00:27:45 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			016 31/32  001   000:00:04  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  9198
+			016 32/31  001   000:01:51  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  9198
+			Thu Mar 21 00:29:45 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Thu Mar 21 00:29:45 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Thu Mar 21 00:33:16 PDT 2024 switch7 TESTCASE START - 63754349 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Thu Mar 21 00:41:21 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			011 21/22  001   000:00:08  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  9198
+			011 22/21  001   000:01:45  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  9198
+			012 23/24  001   000:01:45  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  9198
+			012 24/23  001   000:00:08  Halted/RxErr  Sym,Err                3  FAIL**  Ext    Gig  9198
+			Thu Mar 21 00:44:19 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Thu Mar 21 00:44:19 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Thu Mar 21 00:47:49 PDT 2024 switch7 TESTCASE START - 63754350 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Thu Mar 21 00:55:52 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 00:59:05 PDT 2024 switch7 TESTCASE START - 63754351 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Thu Mar 21 01:07:05 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Thu Mar 21 01:08:08 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			Thu Mar 21 01:10:09 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Thu Mar 21 01:10:09 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Thu Mar 21 01:13:39 PDT 2024 switch7 TESTCASE START - 63754352 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741017 uut=7
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch7.log?page=1&corner_id=741017
+====================================================================================================
+	 Thu Mar 21 01:28:14 PDT 2024 switch7 TESTCASE START - 63754433 {Powercycling Testcase1}
+	 Thu Mar 21 01:31:04 PDT 2024 switch7 TESTCASE START - 63754434 {Diag Testcase1}
+	 Thu Mar 21 01:33:50 PDT 2024 switch7 TESTCASE START - 63754435 {Diag Testcase2}
+			Thu Mar 21 01:41:50 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: sysinit output
+	 Thu Mar 21 01:42:00 PDT 2024 switch7 TESTCASE START - 63754436 {Diag Testcase3}
+	 Thu Mar 21 01:50:52 PDT 2024 switch7 TESTCASE START - 63754437 {Diag Testcase4}
+	 Thu Mar 21 01:52:06 PDT 2024 switch7 TESTCASE START - 63754438 {Diag Testcase5}
+	 Thu Mar 21 01:54:15 PDT 2024 switch7 TESTCASE START - 63754439 {OpticalTest Testcase1}
+	 Thu Mar 21 01:56:20 PDT 2024 switch7 TESTCASE START - 63754440 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Thu Mar 21 02:04:12 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 02:07:25 PDT 2024 switch7 TESTCASE START - 63754441 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Thu Mar 21 02:15:32 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 02:18:45 PDT 2024 switch7 TESTCASE START - 63754442 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Thu Mar 21 02:26:31 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 02:29:44 PDT 2024 switch7 TESTCASE START - 63754443 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Thu Mar 21 02:37:41 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 02:40:54 PDT 2024 switch7 TESTCASE START - 63754444 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Thu Mar 21 02:49:00 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 02:52:13 PDT 2024 switch7 TESTCASE START - 63754445 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Thu Mar 21 03:00:00 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Thu Mar 21 03:01:02 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			016 31/32  002   000:00:02  Halted/RxErr  RxCol,Err              5  FAIL**  Ext    Gig  64
+			016 32/31  001   000:01:51  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  64
+			Thu Mar 21 03:03:02 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Thu Mar 21 03:06:33 PDT 2024 switch7 TESTCASE START - 63754446 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Thu Mar 21 03:14:30 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Thu Mar 21 03:15:32 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			016 31/32  001   000:00:04  Halted/RxErr  RxCol,Err              3  FAIL**  Ext    Gig  64
+			016 32/31  001   000:01:51  UserTerm      Uns,Sym,Err            8  FAIL**  Ext    Gig  64
+			Thu Mar 21 03:17:32 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+	 Thu Mar 21 03:21:03 PDT 2024 switch7 TESTCASE START - 63754447 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Thu Mar 21 03:29:03 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 03:32:16 PDT 2024 switch7 TESTCASE START - 63754448 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Thu Mar 21 03:40:13 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 03:43:26 PDT 2024 switch7 TESTCASE START - 63754449 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Thu Mar 21 03:51:15 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 03:54:28 PDT 2024 switch7 TESTCASE START - 63754450 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Thu Mar 21 04:02:16 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 04:05:29 PDT 2024 switch7 TESTCASE START - 63754451 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Thu Mar 21 04:13:39 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Thu Mar 21 04:14:41 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			009 17/18  001   000:01:50  UserTerm      Uns,Sym,Err            8  FAIL**  Ext    Gig  9198
+			009 18/17  001   000:00:08  Halted/RxErr  Sym,Err                3  FAIL**  Ext    Gig  9198
+			016 31/32  001   000:00:08  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  9198
+			016 32/31  001   000:01:51  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  9198
+			Thu Mar 21 04:16:41 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Thu Mar 21 04:16:41 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Thu Mar 21 04:20:12 PDT 2024 switch7 TESTCASE START - 63754452 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741018 uut=7
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch7.log?page=1&corner_id=741018
+====================================================================================================
+	 Thu Mar 21 04:42:11 PDT 2024 switch7 TESTCASE START - 63754533 {Powercycling Testcase1}
+	 Thu Mar 21 04:44:54 PDT 2024 switch7 TESTCASE START - 63754534 {Diag Testcase1}
+	 Thu Mar 21 04:47:32 PDT 2024 switch7 TESTCASE START - 63754535 {Diag Testcase2}
+			Thu Mar 21 04:55:35 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: sysinit output
+	 Thu Mar 21 04:55:45 PDT 2024 switch7 TESTCASE START - 63754536 {Diag Testcase3}
+	 Thu Mar 21 05:04:32 PDT 2024 switch7 TESTCASE START - 63754537 {Diag Testcase4}
+	 Thu Mar 21 05:05:46 PDT 2024 switch7 TESTCASE START - 63754538 {Diag Testcase5}
+	 Thu Mar 21 05:07:57 PDT 2024 switch7 TESTCASE START - 63754539 {OpticalTest Testcase1}
+	 Thu Mar 21 05:09:53 PDT 2024 switch7 TESTCASE START - 63754540 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Thu Mar 21 05:17:58 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Thu Mar 21 05:19:00 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			016 32/31  001   000:01:51  UserTerm      Uns,Sym,Err            2  FAIL**  Ext    Gig  512
+			Thu Mar 21 05:21:01 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Thu Mar 21 05:21:01 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Thu Mar 21 05:24:31 PDT 2024 switch7 TESTCASE START - 63754541 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Thu Mar 21 05:32:15 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Thu Mar 21 05:33:17 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			014 27/28  001   000:00:02  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  512
+			016 32/31  001   000:01:51  UserTerm      Sym,Err                1  FAIL**  Ext    Gig  512
+			Thu Mar 21 05:35:18 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Thu Mar 21 05:35:18 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Thu Mar 21 05:38:48 PDT 2024 switch7 TESTCASE START - 63754542 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Thu Mar 21 05:46:51 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 05:50:05 PDT 2024 switch7 TESTCASE START - 63754543 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Thu Mar 21 05:58:01 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 06:01:14 PDT 2024 switch7 TESTCASE START - 63754544 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Thu Mar 21 06:09:13 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 06:12:26 PDT 2024 switch7 TESTCASE START - 63754545 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Thu Mar 21 06:20:28 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 06:23:41 PDT 2024 switch7 TESTCASE START - 63754546 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Thu Mar 21 06:31:37 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 06:34:50 PDT 2024 switch7 TESTCASE START - 63754547 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Thu Mar 21 06:42:41 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 06:45:54 PDT 2024 switch7 TESTCASE START - 63754548 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Thu Mar 21 06:53:48 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 06:57:01 PDT 2024 switch7 TESTCASE START - 63754549 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Thu Mar 21 07:04:59 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 07:08:12 PDT 2024 switch7 TESTCASE START - 63754550 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Thu Mar 21 07:16:18 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+			Thu Mar 21 07:17:20 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: start output
+			016 31/32  001   000:00:04  Halted/RxErr  Sym,Err                2  FAIL**  Ext    Gig  9198
+			016 32/31  001   000:01:51  UserTerm      Sym,Err                8  FAIL**  Ext    Gig  9198
+			Thu Mar 21 07:19:21 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: showresult output
+			Thu Mar 21 07:19:21 PDT 2024 switch7 FAILED VALIDATION - Reported CASE SENSITIVE ERR while executing command: showresult output
+	 Thu Mar 21 07:22:51 PDT 2024 switch7 TESTCASE START - 63754551 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Thu Mar 21 07:30:36 PDT 2024 switch7 FAILED VALIDATION - Reported fail while executing command: traf output
+	 Thu Mar 21 07:33:49 PDT 2024 switch7 TESTCASE START - 63754552 {Powercycling Testcase2}

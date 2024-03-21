@@ -1,0 +1,216 @@
+====================================================================================================
+jobid=85797 cornerid=741013 uut=8
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch8.log?page=1&corner_id=741013
+====================================================================================================
+	 Wed Mar 20 15:09:12 PDT 2024 switch8 TESTCASE START - 63754053 {Powercycling Testcase1}
+	 Wed Mar 20 15:11:46 PDT 2024 switch8 TESTCASE START - 63754054 {Diag Testcase1}
+	 Wed Mar 20 15:14:26 PDT 2024 switch8 TESTCASE START - 63754055 {Diag Testcase2}
+	 Wed Mar 20 15:18:58 PDT 2024 switch8 TESTCASE START - 63754056 {Diag Testcase3}
+	 Wed Mar 20 15:23:56 PDT 2024 switch8 TESTCASE START - 63754057 {Diag Testcase4}
+	 Wed Mar 20 15:28:06 PDT 2024 switch8 TESTCASE START - 63754058 {Diag Testcase5}
+	 Wed Mar 20 15:30:30 PDT 2024 switch8 TESTCASE START - 63754059 {OpticalTest Testcase1}
+	 Wed Mar 20 15:31:52 PDT 2024 switch8 TESTCASE START - 63754060 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Wed Mar 20 15:36:11 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 15:39:07 PDT 2024 switch8 TESTCASE START - 63754061 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Wed Mar 20 15:43:23 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 15:46:19 PDT 2024 switch8 TESTCASE START - 63754062 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Wed Mar 20 15:50:27 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 15:53:23 PDT 2024 switch8 TESTCASE START - 63754063 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Wed Mar 20 15:57:33 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 16:00:28 PDT 2024 switch8 TESTCASE START - 63754064 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Wed Mar 20 16:04:41 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 16:07:37 PDT 2024 switch8 TESTCASE START - 63754065 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Wed Mar 20 16:11:49 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 16:14:44 PDT 2024 switch8 TESTCASE START - 63754066 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Wed Mar 20 16:18:51 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 16:21:48 PDT 2024 switch8 TESTCASE START - 63754067 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Wed Mar 20 16:25:58 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 16:28:56 PDT 2024 switch8 TESTCASE START - 63754068 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Wed Mar 20 16:33:03 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 16:35:59 PDT 2024 switch8 TESTCASE START - 63754069 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Wed Mar 20 16:40:10 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 16:43:07 PDT 2024 switch8 TESTCASE START - 63754070 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Wed Mar 20 16:47:17 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 16:50:14 PDT 2024 switch8 TESTCASE START - 63754071 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Wed Mar 20 16:54:22 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 16:57:20 PDT 2024 switch8 TESTCASE START - 63754072 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741014 uut=8
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch8.log?page=1&corner_id=741014
+====================================================================================================
+	 Wed Mar 20 11:55:12 PDT 2024 switch8 TESTCASE START - 63754153 {Powercycling Testcase1}
+	 Wed Mar 20 11:57:37 PDT 2024 switch8 TESTCASE START - 63754154 {Diag Testcase1}
+	 Wed Mar 20 12:00:15 PDT 2024 switch8 TESTCASE START - 63754155 {Diag Testcase2}
+	 Wed Mar 20 12:04:41 PDT 2024 switch8 TESTCASE START - 63754156 {Diag Testcase3}
+	 Wed Mar 20 12:09:39 PDT 2024 switch8 TESTCASE START - 63754157 {Diag Testcase4}
+	 Wed Mar 20 12:13:46 PDT 2024 switch8 TESTCASE START - 63754158 {Diag Testcase5}
+	 Wed Mar 20 12:15:53 PDT 2024 switch8 TESTCASE START - 63754159 {OpticalTest Testcase1}
+	 Wed Mar 20 12:17:21 PDT 2024 switch8 TESTCASE START - 63754160 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Wed Mar 20 12:21:33 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 12:24:30 PDT 2024 switch8 TESTCASE START - 63754161 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Wed Mar 20 12:28:38 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 12:31:35 PDT 2024 switch8 TESTCASE START - 63754162 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Wed Mar 20 12:35:44 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 12:38:44 PDT 2024 switch8 TESTCASE START - 63754163 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Wed Mar 20 12:42:53 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 12:45:53 PDT 2024 switch8 TESTCASE START - 63754164 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Wed Mar 20 12:50:01 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 12:52:59 PDT 2024 switch8 TESTCASE START - 63754165 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Wed Mar 20 12:57:07 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 13:00:05 PDT 2024 switch8 TESTCASE START - 63754166 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Wed Mar 20 13:04:17 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 13:07:13 PDT 2024 switch8 TESTCASE START - 63754167 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Wed Mar 20 13:11:24 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 13:14:20 PDT 2024 switch8 TESTCASE START - 63754168 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Wed Mar 20 13:18:29 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 13:21:37 PDT 2024 switch8 TESTCASE START - 63754169 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Wed Mar 20 13:25:45 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 13:28:41 PDT 2024 switch8 TESTCASE START - 63754170 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Wed Mar 20 13:32:48 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 13:35:49 PDT 2024 switch8 TESTCASE START - 63754171 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Wed Mar 20 13:39:59 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 13:42:56 PDT 2024 switch8 TESTCASE START - 63754172 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741015 uut=8
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch8.log?page=1&corner_id=741015
+====================================================================================================
+	 Wed Mar 20 18:38:10 PDT 2024 switch8 TESTCASE START - 63754253 {Powercycling Testcase1}
+	 Wed Mar 20 18:40:21 PDT 2024 switch8 TESTCASE START - 63754254 {Diag Testcase1}
+	 Wed Mar 20 18:43:12 PDT 2024 switch8 TESTCASE START - 63754255 {Diag Testcase2}
+	 Wed Mar 20 18:47:40 PDT 2024 switch8 TESTCASE START - 63754256 {Diag Testcase3}
+	 Wed Mar 20 18:52:33 PDT 2024 switch8 TESTCASE START - 63754257 {Diag Testcase4}
+	 Wed Mar 20 18:56:42 PDT 2024 switch8 TESTCASE START - 63754258 {Diag Testcase5}
+	 Wed Mar 20 18:58:52 PDT 2024 switch8 TESTCASE START - 63754259 {OpticalTest Testcase1}
+	 Wed Mar 20 19:00:17 PDT 2024 switch8 TESTCASE START - 63754260 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Wed Mar 20 19:04:32 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 19:07:28 PDT 2024 switch8 TESTCASE START - 63754261 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Wed Mar 20 19:11:38 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 19:14:34 PDT 2024 switch8 TESTCASE START - 63754262 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Wed Mar 20 19:18:40 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 19:21:37 PDT 2024 switch8 TESTCASE START - 63754263 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Wed Mar 20 19:25:51 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 19:28:48 PDT 2024 switch8 TESTCASE START - 63754264 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Wed Mar 20 19:32:56 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 19:35:52 PDT 2024 switch8 TESTCASE START - 63754265 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Wed Mar 20 19:40:00 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 19:43:00 PDT 2024 switch8 TESTCASE START - 63754266 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Wed Mar 20 19:47:12 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 19:50:07 PDT 2024 switch8 TESTCASE START - 63754267 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Wed Mar 20 19:54:19 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 19:57:14 PDT 2024 switch8 TESTCASE START - 63754268 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Wed Mar 20 20:01:21 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 20:04:17 PDT 2024 switch8 TESTCASE START - 63754269 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Wed Mar 20 20:08:25 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 20:11:20 PDT 2024 switch8 TESTCASE START - 63754270 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Wed Mar 20 20:15:27 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 20:18:24 PDT 2024 switch8 TESTCASE START - 63754271 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Wed Mar 20 20:22:31 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 20:25:27 PDT 2024 switch8 TESTCASE START - 63754272 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741016 uut=8
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch8.log?page=1&corner_id=741016
+====================================================================================================
+	 Wed Mar 20 21:54:10 PDT 2024 switch8 TESTCASE START - 63754353 {Powercycling Testcase1}
+	 Wed Mar 20 21:56:43 PDT 2024 switch8 TESTCASE START - 63754354 {Diag Testcase1}
+	 Wed Mar 20 21:59:22 PDT 2024 switch8 TESTCASE START - 63754355 {Diag Testcase2}
+	 Wed Mar 20 22:03:44 PDT 2024 switch8 TESTCASE START - 63754356 {Diag Testcase3}
+	 Wed Mar 20 22:08:44 PDT 2024 switch8 TESTCASE START - 63754357 {Diag Testcase4}
+	 Wed Mar 20 22:12:52 PDT 2024 switch8 TESTCASE START - 63754358 {Diag Testcase5}
+	 Wed Mar 20 22:15:02 PDT 2024 switch8 TESTCASE START - 63754359 {OpticalTest Testcase1}
+	 Wed Mar 20 22:16:27 PDT 2024 switch8 TESTCASE START - 63754360 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Wed Mar 20 22:20:44 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 22:23:40 PDT 2024 switch8 TESTCASE START - 63754361 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Wed Mar 20 22:27:52 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 22:30:48 PDT 2024 switch8 TESTCASE START - 63754362 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Wed Mar 20 22:35:00 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 22:37:56 PDT 2024 switch8 TESTCASE START - 63754363 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Wed Mar 20 22:42:04 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 22:44:59 PDT 2024 switch8 TESTCASE START - 63754364 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Wed Mar 20 22:49:14 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 22:52:10 PDT 2024 switch8 TESTCASE START - 63754365 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Wed Mar 20 22:56:21 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 22:59:16 PDT 2024 switch8 TESTCASE START - 63754366 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Wed Mar 20 23:03:33 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 23:06:30 PDT 2024 switch8 TESTCASE START - 63754367 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Wed Mar 20 23:10:47 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 23:13:43 PDT 2024 switch8 TESTCASE START - 63754368 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Wed Mar 20 23:17:51 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 23:20:47 PDT 2024 switch8 TESTCASE START - 63754369 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Wed Mar 20 23:25:00 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 23:27:55 PDT 2024 switch8 TESTCASE START - 63754370 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Wed Mar 20 23:32:04 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 23:34:59 PDT 2024 switch8 TESTCASE START - 63754371 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Wed Mar 20 23:39:10 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Wed Mar 20 23:42:06 PDT 2024 switch8 TESTCASE START - 63754372 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741017 uut=8
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch8.log?page=1&corner_id=741017
+====================================================================================================
+	 Thu Mar 21 01:28:15 PDT 2024 switch8 TESTCASE START - 63754453 {Powercycling Testcase1}
+	 Thu Mar 21 01:30:58 PDT 2024 switch8 TESTCASE START - 63754454 {Diag Testcase1}
+	 Thu Mar 21 01:33:42 PDT 2024 switch8 TESTCASE START - 63754455 {Diag Testcase2}
+	 Thu Mar 21 01:38:10 PDT 2024 switch8 TESTCASE START - 63754456 {Diag Testcase3}
+	 Thu Mar 21 01:43:07 PDT 2024 switch8 TESTCASE START - 63754457 {Diag Testcase4}
+	 Thu Mar 21 01:47:16 PDT 2024 switch8 TESTCASE START - 63754458 {Diag Testcase5}
+	 Thu Mar 21 01:49:28 PDT 2024 switch8 TESTCASE START - 63754459 {OpticalTest Testcase1}
+	 Thu Mar 21 01:50:59 PDT 2024 switch8 TESTCASE START - 63754460 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Thu Mar 21 01:55:13 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 01:58:12 PDT 2024 switch8 TESTCASE START - 63754461 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Thu Mar 21 02:02:27 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 02:05:23 PDT 2024 switch8 TESTCASE START - 63754462 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Thu Mar 21 02:09:35 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 02:12:32 PDT 2024 switch8 TESTCASE START - 63754463 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Thu Mar 21 02:16:40 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 02:19:44 PDT 2024 switch8 TESTCASE START - 63754464 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Thu Mar 21 02:23:52 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 02:26:50 PDT 2024 switch8 TESTCASE START - 63754465 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Thu Mar 21 02:31:02 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 02:33:58 PDT 2024 switch8 TESTCASE START - 63754466 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Thu Mar 21 02:38:06 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 02:41:03 PDT 2024 switch8 TESTCASE START - 63754467 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Thu Mar 21 02:45:18 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 02:48:21 PDT 2024 switch8 TESTCASE START - 63754468 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Thu Mar 21 02:52:32 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 02:55:28 PDT 2024 switch8 TESTCASE START - 63754469 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Thu Mar 21 02:59:36 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 03:02:34 PDT 2024 switch8 TESTCASE START - 63754470 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Thu Mar 21 03:06:46 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 03:09:49 PDT 2024 switch8 TESTCASE START - 63754471 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Thu Mar 21 03:13:58 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 03:16:56 PDT 2024 switch8 TESTCASE START - 63754472 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741018 uut=8
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch8.log?page=1&corner_id=741018
+====================================================================================================
+	 Thu Mar 21 04:42:12 PDT 2024 switch8 TESTCASE START - 63754553 {Powercycling Testcase1}
+	 Thu Mar 21 04:44:47 PDT 2024 switch8 TESTCASE START - 63754554 {Diag Testcase1}
+	 Thu Mar 21 04:47:34 PDT 2024 switch8 TESTCASE START - 63754555 {Diag Testcase2}
+	 Thu Mar 21 04:52:03 PDT 2024 switch8 TESTCASE START - 63754556 {Diag Testcase3}
+	 Thu Mar 21 04:57:02 PDT 2024 switch8 TESTCASE START - 63754557 {Diag Testcase4}
+	 Thu Mar 21 05:01:12 PDT 2024 switch8 TESTCASE START - 63754558 {Diag Testcase5}
+	 Thu Mar 21 05:03:19 PDT 2024 switch8 TESTCASE START - 63754559 {OpticalTest Testcase1}
+	 Thu Mar 21 05:04:42 PDT 2024 switch8 TESTCASE START - 63754560 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+			Thu Mar 21 05:08:53 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 05:11:50 PDT 2024 switch8 TESTCASE START - 63754561 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+			Thu Mar 21 05:16:00 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 05:18:55 PDT 2024 switch8 TESTCASE START - 63754562 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+			Thu Mar 21 05:23:12 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 05:26:09 PDT 2024 switch8 TESTCASE START - 63754563 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+			Thu Mar 21 05:30:17 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 05:33:13 PDT 2024 switch8 TESTCASE START - 63754564 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+			Thu Mar 21 05:37:23 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 05:40:19 PDT 2024 switch8 TESTCASE START - 63754565 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+			Thu Mar 21 05:44:28 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 05:47:24 PDT 2024 switch8 TESTCASE START - 63754566 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+			Thu Mar 21 05:51:35 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 05:54:31 PDT 2024 switch8 TESTCASE START - 63754567 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+			Thu Mar 21 05:58:40 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 06:01:48 PDT 2024 switch8 TESTCASE START - 63754568 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+			Thu Mar 21 06:05:54 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 06:08:51 PDT 2024 switch8 TESTCASE START - 63754569 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+			Thu Mar 21 06:13:02 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 06:16:02 PDT 2024 switch8 TESTCASE START - 63754570 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+			Thu Mar 21 06:20:11 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 06:23:06 PDT 2024 switch8 TESTCASE START - 63754571 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+			Thu Mar 21 06:27:15 PDT 2024 switch8 FAILED VALIDATION - Reported warn while executing command: traf output
+	 Thu Mar 21 06:30:12 PDT 2024 switch8 TESTCASE START - 63754572 {Powercycling Testcase2}

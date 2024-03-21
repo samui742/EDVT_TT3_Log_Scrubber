@@ -1,0 +1,144 @@
+====================================================================================================
+jobid=85797 cornerid=741013 uut=6
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch6.log?page=1&corner_id=741013
+====================================================================================================
+	 Wed Mar 20 15:09:11 PDT 2024 switch6 TESTCASE START - 63754013 {Powercycling Testcase1}
+	 Wed Mar 20 15:11:06 PDT 2024 switch6 TESTCASE START - 63754014 {Diag Testcase1}
+	 Wed Mar 20 15:13:38 PDT 2024 switch6 TESTCASE START - 63754015 {Diag Testcase2}
+	 Wed Mar 20 15:18:35 PDT 2024 switch6 TESTCASE START - 63754016 {Diag Testcase3}
+	 Wed Mar 20 15:24:05 PDT 2024 switch6 TESTCASE START - 63754017 {Diag Testcase4}
+	 Wed Mar 20 15:35:07 PDT 2024 switch6 TESTCASE START - 63754018 {Diag Testcase5}
+	 Wed Mar 20 15:37:29 PDT 2024 switch6 TESTCASE START - 63754019 {OpticalTest Testcase1}
+	 Wed Mar 20 15:38:59 PDT 2024 switch6 TESTCASE START - 63754020 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+	 Wed Mar 20 15:47:29 PDT 2024 switch6 TESTCASE START - 63754021 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+	 Wed Mar 20 15:55:56 PDT 2024 switch6 TESTCASE START - 63754022 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+	 Wed Mar 20 16:04:18 PDT 2024 switch6 TESTCASE START - 63754023 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+	 Wed Mar 20 16:12:41 PDT 2024 switch6 TESTCASE START - 63754024 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+	 Wed Mar 20 16:21:06 PDT 2024 switch6 TESTCASE START - 63754025 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+	 Wed Mar 20 16:29:29 PDT 2024 switch6 TESTCASE START - 63754026 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+	 Wed Mar 20 16:37:53 PDT 2024 switch6 TESTCASE START - 63754027 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+	 Wed Mar 20 16:46:16 PDT 2024 switch6 TESTCASE START - 63754028 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+	 Wed Mar 20 16:54:47 PDT 2024 switch6 TESTCASE START - 63754029 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+	 Wed Mar 20 17:03:21 PDT 2024 switch6 TESTCASE START - 63754030 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+	 Wed Mar 20 17:11:54 PDT 2024 switch6 TESTCASE START - 63754031 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+	 Wed Mar 20 17:20:17 PDT 2024 switch6 TESTCASE START - 63754032 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741014 uut=6
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch6.log?page=1&corner_id=741014
+====================================================================================================
+	 Wed Mar 20 11:55:09 PDT 2024 switch6 TESTCASE START - 63754113 {Powercycling Testcase1}
+	 Wed Mar 20 11:57:12 PDT 2024 switch6 TESTCASE START - 63754114 {Diag Testcase1}
+	 Wed Mar 20 11:59:44 PDT 2024 switch6 TESTCASE START - 63754115 {Diag Testcase2}
+	 Wed Mar 20 12:04:38 PDT 2024 switch6 TESTCASE START - 63754116 {Diag Testcase3}
+	 Wed Mar 20 12:10:18 PDT 2024 switch6 TESTCASE START - 63754117 {Diag Testcase4}
+	 Wed Mar 20 12:21:19 PDT 2024 switch6 TESTCASE START - 63754118 {Diag Testcase5}
+	 Wed Mar 20 12:23:29 PDT 2024 switch6 TESTCASE START - 63754119 {OpticalTest Testcase1}
+	 Wed Mar 20 12:24:51 PDT 2024 switch6 TESTCASE START - 63754120 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+	 Wed Mar 20 12:33:13 PDT 2024 switch6 TESTCASE START - 63754121 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+	 Wed Mar 20 12:41:31 PDT 2024 switch6 TESTCASE START - 63754122 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+	 Wed Mar 20 12:49:52 PDT 2024 switch6 TESTCASE START - 63754123 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+	 Wed Mar 20 12:58:21 PDT 2024 switch6 TESTCASE START - 63754124 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+	 Wed Mar 20 13:06:46 PDT 2024 switch6 TESTCASE START - 63754125 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+	 Wed Mar 20 13:15:07 PDT 2024 switch6 TESTCASE START - 63754126 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+	 Wed Mar 20 13:23:30 PDT 2024 switch6 TESTCASE START - 63754127 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+	 Wed Mar 20 13:31:49 PDT 2024 switch6 TESTCASE START - 63754128 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+	 Wed Mar 20 13:40:23 PDT 2024 switch6 TESTCASE START - 63754129 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+	 Wed Mar 20 13:48:45 PDT 2024 switch6 TESTCASE START - 63754130 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+	 Wed Mar 20 13:57:05 PDT 2024 switch6 TESTCASE START - 63754131 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+	 Wed Mar 20 14:05:31 PDT 2024 switch6 TESTCASE START - 63754132 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741015 uut=6
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch6.log?page=1&corner_id=741015
+====================================================================================================
+	 Wed Mar 20 18:38:08 PDT 2024 switch6 TESTCASE START - 63754213 {Powercycling Testcase1}
+	 Wed Mar 20 18:40:14 PDT 2024 switch6 TESTCASE START - 63754214 {Diag Testcase1}
+	 Wed Mar 20 18:42:53 PDT 2024 switch6 TESTCASE START - 63754215 {Diag Testcase2}
+	 Wed Mar 20 18:47:57 PDT 2024 switch6 TESTCASE START - 63754216 {Diag Testcase3}
+	 Wed Mar 20 18:53:31 PDT 2024 switch6 TESTCASE START - 63754217 {Diag Testcase4}
+	 Wed Mar 20 19:04:29 PDT 2024 switch6 TESTCASE START - 63754218 {Diag Testcase5}
+	 Wed Mar 20 19:08:19 PDT 2024 switch6 TESTCASE START - 63754219 {OpticalTest Testcase1}
+	 Wed Mar 20 19:09:42 PDT 2024 switch6 TESTCASE START - 63754220 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+	 Wed Mar 20 19:18:15 PDT 2024 switch6 TESTCASE START - 63754221 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+	 Wed Mar 20 19:26:48 PDT 2024 switch6 TESTCASE START - 63754222 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+	 Wed Mar 20 19:35:10 PDT 2024 switch6 TESTCASE START - 63754223 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+	 Wed Mar 20 19:43:33 PDT 2024 switch6 TESTCASE START - 63754224 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+	 Wed Mar 20 19:51:57 PDT 2024 switch6 TESTCASE START - 63754225 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+	 Wed Mar 20 20:00:22 PDT 2024 switch6 TESTCASE START - 63754226 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+	 Wed Mar 20 20:08:41 PDT 2024 switch6 TESTCASE START - 63754227 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+	 Wed Mar 20 20:17:07 PDT 2024 switch6 TESTCASE START - 63754228 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+	 Wed Mar 20 20:25:28 PDT 2024 switch6 TESTCASE START - 63754229 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+	 Wed Mar 20 20:33:52 PDT 2024 switch6 TESTCASE START - 63754230 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+	 Wed Mar 20 20:42:17 PDT 2024 switch6 TESTCASE START - 63754231 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+	 Wed Mar 20 20:50:40 PDT 2024 switch6 TESTCASE START - 63754232 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741016 uut=6
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch6.log?page=1&corner_id=741016
+====================================================================================================
+	 Wed Mar 20 21:54:07 PDT 2024 switch6 TESTCASE START - 63754313 {Powercycling Testcase1}
+	 Wed Mar 20 21:56:19 PDT 2024 switch6 TESTCASE START - 63754314 {Diag Testcase1}
+	 Wed Mar 20 21:58:59 PDT 2024 switch6 TESTCASE START - 63754315 {Diag Testcase2}
+	 Wed Mar 20 22:03:57 PDT 2024 switch6 TESTCASE START - 63754316 {Diag Testcase3}
+	 Wed Mar 20 22:09:31 PDT 2024 switch6 TESTCASE START - 63754317 {Diag Testcase4}
+	 Wed Mar 20 22:20:35 PDT 2024 switch6 TESTCASE START - 63754318 {Diag Testcase5}
+	 Wed Mar 20 22:22:47 PDT 2024 switch6 TESTCASE START - 63754319 {OpticalTest Testcase1}
+	 Wed Mar 20 22:24:07 PDT 2024 switch6 TESTCASE START - 63754320 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+	 Wed Mar 20 22:32:27 PDT 2024 switch6 TESTCASE START - 63754321 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+	 Wed Mar 20 22:41:00 PDT 2024 switch6 TESTCASE START - 63754322 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+	 Wed Mar 20 22:49:29 PDT 2024 switch6 TESTCASE START - 63754323 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+	 Wed Mar 20 22:57:59 PDT 2024 switch6 TESTCASE START - 63754324 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+	 Wed Mar 20 23:06:20 PDT 2024 switch6 TESTCASE START - 63754325 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+	 Wed Mar 20 23:15:05 PDT 2024 switch6 TESTCASE START - 63754326 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+	 Wed Mar 20 23:23:33 PDT 2024 switch6 TESTCASE START - 63754327 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+	 Wed Mar 20 23:31:58 PDT 2024 switch6 TESTCASE START - 63754328 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+	 Wed Mar 20 23:40:32 PDT 2024 switch6 TESTCASE START - 63754329 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+	 Wed Mar 20 23:48:53 PDT 2024 switch6 TESTCASE START - 63754330 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+	 Wed Mar 20 23:57:22 PDT 2024 switch6 TESTCASE START - 63754331 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+	 Thu Mar 21 00:05:47 PDT 2024 switch6 TESTCASE START - 63754332 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741017 uut=6
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch6.log?page=1&corner_id=741017
+====================================================================================================
+	 Thu Mar 21 01:28:14 PDT 2024 switch6 TESTCASE START - 63754413 {Powercycling Testcase1}
+	 Thu Mar 21 01:30:25 PDT 2024 switch6 TESTCASE START - 63754414 {Diag Testcase1}
+	 Thu Mar 21 01:33:09 PDT 2024 switch6 TESTCASE START - 63754415 {Diag Testcase2}
+	 Thu Mar 21 01:38:11 PDT 2024 switch6 TESTCASE START - 63754416 {Diag Testcase3}
+	 Thu Mar 21 01:43:48 PDT 2024 switch6 TESTCASE START - 63754417 {Diag Testcase4}
+	 Thu Mar 21 01:54:48 PDT 2024 switch6 TESTCASE START - 63754418 {Diag Testcase5}
+	 Thu Mar 21 01:56:59 PDT 2024 switch6 TESTCASE START - 63754419 {OpticalTest Testcase1}
+	 Thu Mar 21 01:58:25 PDT 2024 switch6 TESTCASE START - 63754420 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+	 Thu Mar 21 02:06:49 PDT 2024 switch6 TESTCASE START - 63754421 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+	 Thu Mar 21 02:15:15 PDT 2024 switch6 TESTCASE START - 63754422 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+	 Thu Mar 21 02:23:44 PDT 2024 switch6 TESTCASE START - 63754423 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+	 Thu Mar 21 02:32:12 PDT 2024 switch6 TESTCASE START - 63754424 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+	 Thu Mar 21 02:40:39 PDT 2024 switch6 TESTCASE START - 63754425 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+	 Thu Mar 21 02:49:13 PDT 2024 switch6 TESTCASE START - 63754426 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+	 Thu Mar 21 02:57:38 PDT 2024 switch6 TESTCASE START - 63754427 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+	 Thu Mar 21 03:06:02 PDT 2024 switch6 TESTCASE START - 63754428 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+	 Thu Mar 21 03:14:30 PDT 2024 switch6 TESTCASE START - 63754429 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+	 Thu Mar 21 03:22:57 PDT 2024 switch6 TESTCASE START - 63754430 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+	 Thu Mar 21 03:31:33 PDT 2024 switch6 TESTCASE START - 63754431 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+	 Thu Mar 21 03:40:00 PDT 2024 switch6 TESTCASE START - 63754432 {Powercycling Testcase2}
+====================================================================================================
+jobid=85797 cornerid=741018 uut=6
+URL: https://wwwin-testtracker3.cisco.com/trackerApp/oneviewlog/switch6.log?page=1&corner_id=741018
+====================================================================================================
+	 Thu Mar 21 04:42:11 PDT 2024 switch6 TESTCASE START - 63754513 {Powercycling Testcase1}
+	 Thu Mar 21 04:44:16 PDT 2024 switch6 TESTCASE START - 63754514 {Diag Testcase1}
+	 Thu Mar 21 04:46:51 PDT 2024 switch6 TESTCASE START - 63754515 {Diag Testcase2}
+	 Thu Mar 21 04:52:05 PDT 2024 switch6 TESTCASE START - 63754516 {Diag Testcase3}
+	 Thu Mar 21 04:57:45 PDT 2024 switch6 TESTCASE START - 63754517 {Diag Testcase4}
+	 Thu Mar 21 05:08:48 PDT 2024 switch6 TESTCASE START - 63754518 {Diag Testcase5}
+	 Thu Mar 21 05:11:02 PDT 2024 switch6 TESTCASE START - 63754519 {OpticalTest Testcase1}
+	 Thu Mar 21 05:12:23 PDT 2024 switch6 TESTCASE START - 63754520 {L2ext__{ }-full-{ }-nomacsec-512-auto-100-0-stress-60}
+	 Thu Mar 21 05:20:44 PDT 2024 switch6 TESTCASE START - 63754521 {L2ext__{ }-full-{ }-nomacsec-512-auto-1000-0-stress-60}
+	 Thu Mar 21 05:29:16 PDT 2024 switch6 TESTCASE START - 63754522 {L2ext__{ }-full-{ }-nomacsec-512-auto-2500-0-stress-60}
+	 Thu Mar 21 05:37:36 PDT 2024 switch6 TESTCASE START - 63754523 {L2ext__{ }-full-{ }-nomacsec-512-auto-5G-0-stress-60}
+	 Thu Mar 21 05:46:09 PDT 2024 switch6 TESTCASE START - 63754524 {L2ext__{ }-full-{ }-nomacsec-64-auto-100-0-stress-60}
+	 Thu Mar 21 05:54:36 PDT 2024 switch6 TESTCASE START - 63754525 {L2ext__{ }-full-{ }-nomacsec-64-auto-1000-0-stress-60}
+	 Thu Mar 21 06:03:05 PDT 2024 switch6 TESTCASE START - 63754526 {L2ext__{ }-full-{ }-nomacsec-64-auto-2500-0-stress-60}
+	 Thu Mar 21 06:11:30 PDT 2024 switch6 TESTCASE START - 63754527 {L2ext__{ }-full-{ }-nomacsec-64-auto-5G-0-stress-60}
+	 Thu Mar 21 06:19:50 PDT 2024 switch6 TESTCASE START - 63754528 {L2ext__{ }-full-{ }-nomacsec-9198-auto-100-0-stress-60}
+	 Thu Mar 21 06:28:13 PDT 2024 switch6 TESTCASE START - 63754529 {L2ext__{ }-full-{ }-nomacsec-9198-auto-1000-0-stress-60}
+	 Thu Mar 21 06:36:35 PDT 2024 switch6 TESTCASE START - 63754530 {L2ext__{ }-full-{ }-nomacsec-9198-auto-2500-0-stress-60}
+	 Thu Mar 21 06:45:05 PDT 2024 switch6 TESTCASE START - 63754531 {L2ext__{ }-full-{ }-nomacsec-9198-auto-5G-0-stress-60}
+	 Thu Mar 21 06:53:29 PDT 2024 switch6 TESTCASE START - 63754532 {Powercycling Testcase2}
