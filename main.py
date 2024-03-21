@@ -21,7 +21,6 @@ def extract_uut_list(html):
         uut_id = re.search(r'\d+', match).group(0)
         if uut_id not in uut_list:
             uut_list.append(uut_id)
-
     return uut_list
 def extract_corner_ids(html):
     corner_match = re.findall(r'data-cornerid="\d+"', html)
