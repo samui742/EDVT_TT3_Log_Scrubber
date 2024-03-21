@@ -35,9 +35,6 @@ def extract_corner_ids(html):
 
     return corner_list
 def parse_jobids(jobids_input):
-    # print(jobids_input)
-    # print(type(jobids_input))
-
     jobid_list = []
 
     if "," in str(jobids_input):
@@ -58,8 +55,6 @@ def parse_keywords(keywords_input):
     else:
         keyword_list.append(str(keywords_input).strip())
 
-    # print(keyword_list)
-
     # Add to support comma search. User has to input as semicolon
     for i in range(len(keyword_list)):
         if ";" in keyword_list[i]:
@@ -67,7 +62,6 @@ def parse_keywords(keywords_input):
             # print(keyword_list[i])
             keyword_list[i] = x
 
-    # print(keyword_list)
     return keyword_list
 def parse_corners(corners_list, corner_select):
     corner_map = []
@@ -138,19 +132,13 @@ def switch_log_request(jobids_input, keywords_input, username, password):
         html = response.text
 
         corner_list = extract_corner_ids(html)
-        # print(corner_list)
         uut_list = extract_uut_list(html)
-        # print(uut_list)
         len_corner = len(corner_list)
-        # print(f'JOBID#{jobid} has total {len(corner_list)} corners.' + ': ', *range(1, len_corner + 1), sep=",")
         print(f'JOBID#{jobid} has total {len(corner_list)} corners.' + 'Corner number: ', ','.join(map(str, range(1, len_corner + 1))))
         corner_select = input(f'Press enter to search all or specify corner number (using comma if there are multiples): ')
-
-        # print(f'There are total {len(uut_list)} units.' + ': Unit number:', *uut_list, sep=",")
         print(f'There are total {len(uut_list)} units.' + 'Unit number: ', ','.join(map(str, uut_list)))
         uut_select = input(f'Press enter to search all or specify unit number (using comma if there are multiples): ')
 
-        # corner_select = "1"
         if len(corner_select) == 0:
             pass
         else:
@@ -162,41 +150,29 @@ def switch_log_request(jobids_input, keywords_input, username, password):
             uut_list = parse_uuts(uut_list, uut_select)
 
         for uut in uut_list:
-            # Create a local result file
             result_file = f"{jobid}_uut{uut}_keyword_search_result.txt"
-            ## To add option if need a local result file
             with open(result_file, "w") as result_file:
-
                 for corner in corner_list:
-                    # content = grab_switch_logs(corner_list, uut_list, jobid)
                     content, url = grab_switch_logs(corner, uut, jobid, username, password)
-
                     # Process content starts from here
                     if len(keywords) != 0:
                         print("="*100)
                         print(f'jobid={jobid} cornerid={corner} uut={uut}')
                         print(f'{url}')
                         print("="*100)
-
                         result_file.write("="*100 + "\n")
                         result_file.write(f'jobid={jobid} cornerid={corner} uut={uut}' + "\n")
                         result_file.write(f"URL: {url}" + "\n")
                         result_file.write("="*100 + "\n")
-
-
-                        # keywords = ["SYSTEM_SERIAL_NUM", "VDD_AVS"]
                         lines = content.splitlines()
                         line_with_keyword_list = []
-
-                        # print("keyword_list", keyword_list)
-                            # print(f'result of {keyword}')
                         for line in lines:
-
+                            # To handle crashed corner
                             if f'REMOVING switch{uut} FROM CURRENT CORNER - JOB' in line:
                                 print(f'{bcolors.BOLD}{bcolors.WARNING} *** Corner is NOT completed, switch is removed from the current corner ***{bcolors.ENDC}')
                                 result_file.write(
                                     '\nCorner is NOT completed, switch is removed from the current corner\n\n')
-
+                            # To handle link partner unit which does not have log file
                             if 'has no log file. Must be a link partner unit' in line:
                                 # print(f'{bcolors.BOLD}{bcolors.WARNING} *** has no log file match. Could be a link partner unit ***{bcolors.ENDC}')
                                 print(f'{bcolors.BOLD}{bcolors.WARNING}*** {line} ***{bcolors.ENDC}')
@@ -206,6 +182,7 @@ def switch_log_request(jobids_input, keywords_input, username, password):
                                 if keyword in line:
                                     if allow_duplicate == "yes":
                                         line_with_keyword_list.append(line)
+                                        # To display testcase names on the report
                                         if "TESTCASE START -" in line:
                                             print("\t" + f'{bcolors.BOLD}{line}{bcolors.ENDC}')
                                             result_file.write("\t" + line + "\n")
@@ -221,7 +198,6 @@ def switch_log_request(jobids_input, keywords_input, username, password):
                                             else:
                                                 print("\t\t\t" + f'{bcolors.FAIL}{line}{bcolors.ENDC}')
                                                 result_file.write("\t\t\t" + line + "\n")
-
             result_file.close()
 def command_output_request(jobids_input, command_user, username, password):
 
@@ -248,11 +224,9 @@ def command_output_request(jobids_input, command_user, username, password):
         for uut in uut_list:
             output_file = f"{jobid}_uut{uut}_command_output_result.txt"
             with open(output_file, "w") as output_file:
-
                 for corner in corner_list:
                     start_list = []
                     stop_list = []
-
                     content, url = grab_switch_logs(corner, uut, jobid, username, password)
                     print("="*100)
                     print(f'jobid={jobid} cornerid={corner} uut={uut}')
@@ -263,12 +237,11 @@ def command_output_request(jobids_input, command_user, username, password):
                     output_file.write(f"URL: {url}" + "\n")
                     output_file.write("="*100 + "\n")
 
-                    # IN THE FUTURE COULD ASK TT3 TO ADD A BETTER MESSAGE
+                    # To specify stop point of each command output
+                    # TT3 might change the print out which will affect the code here
                     stop_keyword = "platform"
 
-                    # COVERT STRING INTO LIST
                     lines = content.split('\n')
-                    # RETURN LIST INDEX WHEN COMMAND IS FOUND
                     for i in range(len(lines)):
                         if command_user in lines[i]:
                             start_list.append(i)
@@ -375,7 +348,6 @@ def statshow_error(statshow_list):
     start_index = statshow_list.index("   P#   Transmit      TxBytes     TxErr  Receive      RxBytes     RxFcs RxIpg RxCol OvrSz UndSz RxSym OvRun\r")
     stop_index = statshow_list.index("Traf&gt; platform : 9300")
     lines = statshow_list[start_index:stop_index - 1]
-    # print(lines)
 
     for line in lines:
         line.strip('\r')
@@ -387,13 +359,11 @@ def statshow_error(statshow_list):
 
     for line in lines:
         if "P#   Transmit" in line:
-            # print(line)
             lines.remove(line)
 
     list_of_dict = []
     non_zero_error_portlist = []
     for line in lines:
-        # print(line)
         data = {}
         (data['P#'], data['Transmit'], data['TxBytes'], data['TxErr'], data['Receive'], data['RxBytes'], data['RxFcs'],
          data['RxIpg'], data['RxCol'], data['OvrSz'], data['UndSz'], data['RxSym'], data['OvRun']) = line.split()
@@ -401,8 +371,7 @@ def statshow_error(statshow_list):
         list_of_dict.append(data)
 
     for item in list_of_dict:
-        if item["RxFcs"] != '00000' or item["RxIpg"] != '00000' or item["RxCol"] != '00000' or item[
-            "OvrSz"] != '00000' or item["UndSz"] != '00000' or item["RxSym"] != '00000' or item["OvRun"] != '00000':
+        if item["RxFcs"] != '00000' or item["RxIpg"] != '00000' or item["RxCol"] != '00000' or item["OvrSz"] != '00000' or item["UndSz"] != '00000' or item["RxSym"] != '00000' or item["OvRun"] != '00000':
             print(
                 f'{bcolors.WARNING}{item["P#"]:<10} {item["Transmit"]:<10} {item["TxBytes"]:<10} {item["TxErr"]:<10} {item["Receive"]:<10} {item["RxBytes"]:<10} {item["RxFcs"]:<10} {item["RxIpg"]:<10} {item["RxCol"]:<10} {item["OvrSz"]:<10} {item["UndSz"]:<10} {item["RxSym"]:<10} {item["OvRun"]:<10} {bcolors.ENDC}')
             non_zero_error_portlist.append(item["P#"])
@@ -420,7 +389,6 @@ def statshow_error(statshow_list):
         for port in non_zero_error_portlist:
             print(port)
             if item in list_of_dict:
-                # if port in item["P#"]:
                 print(f'{bcolors.WARNING}{item["P#"]:<10} {item["Transmit"]:<10} {item["TxBytes"]:<10} {item["TxErr"]:<10} {item["Receive"]:<10} {item["RxBytes"]:<10} {item["RxFcs"]:<10} {item["RxIpg"]:<10} {item["RxCol"]:<10} {item["OvrSz"]:<10} {item["UndSz"]:<10} {item["RxSym"]:<10} {item["OvRun"]:<10} {bcolors.ENDC}')
 
 
