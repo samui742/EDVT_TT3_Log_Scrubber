@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d381cb8d-deb6-4237-b6c0-df0ddd9aecf1" name="Changes" comment="clean up codes">
-      <change beforePath="$PROJECT_DIR$/.idea/EDVT_TT3_Log_Scrubber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EDVT_TT3_Log_Scrubber.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="d381cb8d-deb6-4237-b6c0-df0ddd9aecf1" name="Changes" comment="update gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,12 +99,29 @@
       <option name="project" value="LOCAL" />
       <updated>1711056314719</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="clean up codes">
+      <option name="closed" value="true" />
+      <created>1711057574793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711057574795</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update gitignore">
+      <option name="closed" value="true" />
+      <created>1711058040808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711058040808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="clean up codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean up codes" />
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
   </component>
 </project>

@@ -13,7 +13,6 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-
 def extract_uut_list(html):
     uut_match = re.findall(r'UUT\d+ </span></td>', html)
     uut_list = []
