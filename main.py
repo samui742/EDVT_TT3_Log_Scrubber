@@ -14,23 +14,6 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-# require packages
-# 1) requests
-# 2) pyautogui
-# 3) art
-
-# def find_uuts(html):
-#
-#     uut_match = re.findall(r'UUT\d+ </span></td>', html)
-#     # print(uut_match)
-#     uut_list = []
-#     for i in range(len(uut_match)):
-#         # print(uut_match[i])
-#         match = re.search(r'\d+', uut_match[i]).group(0)
-#         if match not in uut_list:
-#             uut_list.append(match)
-#     return uut_list
-
 def extract_uut_list(html):
     uut_match = re.findall(r'UUT\d+ </span></td>', html)
     uut_list = []
@@ -41,13 +24,6 @@ def extract_uut_list(html):
             uut_list.append(uut_id)
 
     return uut_list
-"""
-# Example usage:
-html_content = "<your HTML content here>"
-result = extract_corner_ids(html_content)
-print(result)
-"""
-
 def extract_corner_ids(html):
     corner_match = re.findall(r'data-cornerid="\d+"', html)
     corner_list = []
@@ -58,36 +34,6 @@ def extract_corner_ids(html):
             corner_list.append(corner_id)
 
     return corner_list
-"""
-# Example usage:
-html_content = "<your HTML content here>"
-result = extract_uut_list(html_content)
-print(result)
-"""
-
-# def find_cornerIDs(html):
-#
-#         # corner_match = re.findall(r'data-cornerid="\d+"', html)
-#         # # print(corner_match)
-#         # corner_list = []
-#         # for i in range(len(corner_match)):
-#         #     # print(corner_match[i])
-#         #     match = re.search(r'\d+', corner_match[i]).group(0)
-#         #     if match not in corner_list:
-#         #         corner_list.append(match)
-#         # # print(corner_list)
-#         # return corner_list
-#
-#     corner_match = re.findall(r'data-cornerid="\d+"', html)
-#     corner_list = []
-#
-#     for match in corner_match:
-#         corner_id = re.search(r'\d+', match).group(0)
-#         if corner_id not in corner_list:
-#             corner_list.append(corner_id)
-#
-#     return corner_list
-
 def parse_jobids(jobids_input):
     # print(jobids_input)
     # print(type(jobids_input))
@@ -103,13 +49,6 @@ def parse_jobids(jobids_input):
 
     # print(jobid_list)
     return jobid_list
-
-'''
-# Example usage:
-jobids_input = "123,456,789"
-result = parse_jobids(jobids_input)
-print(result)
-'''
 def parse_keywords(keywords_input):
     keyword_list = []
 
@@ -130,7 +69,6 @@ def parse_keywords(keywords_input):
 
     # print(keyword_list)
     return keyword_list
-
 def parse_corners(corners_list, corner_select):
     corner_map = []
 
@@ -138,7 +76,6 @@ def parse_corners(corners_list, corner_select):
         corner_map.append(corners_list[int(item) - 1])
 
     return corner_map
-
 def parse_uuts(uut_list, uut_select):
     uut_map = []
 
@@ -146,7 +83,6 @@ def parse_uuts(uut_list, uut_select):
         uut_map.append(uut_list[int(item) - 1])
 
     return uut_map
-
 def grab_switch_logs(corner, uut, jobid, username, password):
 
     local_log = "no"
@@ -174,14 +110,6 @@ def grab_switch_logs(corner, uut, jobid, username, password):
             local_log.write(content)
 
     return content, url
-'''
-# Example usage:
-corner_list = ["123", "456"]  # Replace with actual corner IDs
-uut_list = ["A", "B"]  # Replace with actual UUT IDs
-jobid_list = ["job1", "job2"]  # Replace with actual job IDs
-grab_switch_logs(corner_list, uut_list, jobid_list)
-'''
-
 def switch_log_request(jobids_input, keywords_input, username, password):
 
     class bcolors:
@@ -195,13 +123,6 @@ def switch_log_request(jobids_input, keywords_input, username, password):
         BOLD = '\033[1m'
         UNDERLINE = '\033[4m'
 
-    # jobid_list = []
-    # if "," in str(jobids):
-    #     for i in jobids.split(','):
-    #         jobid_list.append(i)
-    # else:
-    #     jobid_list.append(str(jobids))
-
     allow_duplicate = "no"
     jobid_list = parse_jobids(jobids_input)
     print("jobIDs to proceed = ", jobid_list)
@@ -209,13 +130,6 @@ def switch_log_request(jobids_input, keywords_input, username, password):
     keyword_list = parse_keywords(keywords_input)
     print("Keywords to search = ", keyword_list)
 
-    result_list_dict = []
-    # print(os.getcwd())
-
-
-
-
-    # for i in range(len(jobid_list)):
     for jobid in jobid_list:
         #Send HTTP Request with TT3 credentials
         url = f"https://wwwin-testtracker3.cisco.com/trackerApp/cornerTest/{jobid}"
@@ -308,30 +222,7 @@ def switch_log_request(jobids_input, keywords_input, username, password):
                                                 print("\t\t\t" + f'{bcolors.FAIL}{line}{bcolors.ENDC}')
                                                 result_file.write("\t\t\t" + line + "\n")
 
-                        '''                    
-                        # print("keyword_list", keyword_list)
-                        for keyword in keyword_list:
-                            # print(f'result of {keyword}')
-                            for line in lines:
-                                if keyword in line:
-                                    if allow_duplicate == "yes":
-                                        line_with_keyword_list.append(line)
-                                        print("\t" + line)
-                                        result_file.write(line + "\n")
-                                    else:
-                                        if line not in line_with_keyword_list:
-                                            line_with_keyword_list.append(line)
-                                            print("\t" + line)
-                                            result_file.write(line + "\n")
-                        '''
-                        # print(*line_with_keyword_list, sep='\t')
-
-                        # if len(line_with_keyword_list) == 0:
-                        #     print(f'{keyword}" was not found on this log"')
-
             result_file.close()
-
-
 def command_output_request(jobids_input, command_user, username, password):
 
     jobid_list = parse_jobids(jobids_input)
@@ -479,14 +370,7 @@ def statshow_diag_scrub(jobids_input, command_user, username, password):
                                 # print(line)
                                 output_file.write(line + '\n')
                 output_file.close()
-
-
-
 def statshow_error(statshow_list):
-
-
-    # counter = statshow_text[statshow_text.index("P#"):statshow_text.index("Traf> platform")].strip()
-    # lines = (counter.splitlines())
 
     start_index = statshow_list.index("   P#   Transmit      TxBytes     TxErr  Receive      RxBytes     RxFcs RxIpg RxCol OvrSz UndSz RxSym OvRun\r")
     stop_index = statshow_list.index("Traf&gt; platform : 9300")
@@ -506,10 +390,6 @@ def statshow_error(statshow_list):
             # print(line)
             lines.remove(line)
 
-    # print(lines)
-    # pprint(lines)
-    # print(*lines, sep='\n')
-
     list_of_dict = []
     non_zero_error_portlist = []
     for line in lines:
@@ -520,9 +400,6 @@ def statshow_error(statshow_list):
 
         list_of_dict.append(data)
 
-    # print(
-    #     f'{bcolors.BOLD}{bcolors.OKBLUE}{"P#":<10} {"Transmit":<10} {"TxBytes":<10} {"TxErr":<10} {"Receive":<10} {"RxBytes":<10} {"RxFcs":<10} {"RxIpg":<10} {"RxCol":<10} {"OvrSz":<10} {"UndSz":<10} {"RxSym":<10} {"OvRun":<10} {bcolors.ENDC}')
-
     for item in list_of_dict:
         if item["RxFcs"] != '00000' or item["RxIpg"] != '00000' or item["RxCol"] != '00000' or item[
             "OvrSz"] != '00000' or item["UndSz"] != '00000' or item["RxSym"] != '00000' or item["OvRun"] != '00000':
@@ -530,7 +407,6 @@ def statshow_error(statshow_list):
                 f'{bcolors.WARNING}{item["P#"]:<10} {item["Transmit"]:<10} {item["TxBytes"]:<10} {item["TxErr"]:<10} {item["Receive"]:<10} {item["RxBytes"]:<10} {item["RxFcs"]:<10} {item["RxIpg"]:<10} {item["RxCol"]:<10} {item["OvrSz"]:<10} {item["UndSz"]:<10} {item["RxSym"]:<10} {item["OvRun"]:<10} {bcolors.ENDC}')
             non_zero_error_portlist.append(item["P#"])
 
-    # non_zero_error_portlist = ['1', '2', '3']
     print("non_zero_error_portlist", non_zero_error_portlist)
     if len(non_zero_error_portlist) == 0:
         print('all error counters are zero'.upper())
@@ -546,9 +422,6 @@ def statshow_error(statshow_list):
             if item in list_of_dict:
                 # if port in item["P#"]:
                 print(f'{bcolors.WARNING}{item["P#"]:<10} {item["Transmit"]:<10} {item["TxBytes"]:<10} {item["TxErr"]:<10} {item["Receive"]:<10} {item["RxBytes"]:<10} {item["RxFcs"]:<10} {item["RxIpg"]:<10} {item["RxCol"]:<10} {item["OvrSz"]:<10} {item["UndSz"]:<10} {item["RxSym"]:<10} {item["OvRun"]:<10} {bcolors.ENDC}')
-
-
-            # print(f'fail ports with error are', non_zero_error_portlist)
 
 
 ############ MAIN ################
