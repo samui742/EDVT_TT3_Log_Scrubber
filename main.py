@@ -115,7 +115,7 @@ def switch_log_request(jobids_input, keywords_input, username, password):
         BOLD = '\033[1m'
         UNDERLINE = '\033[4m'
 
-    allow_duplicate = "no"
+    allow_duplicate = "yes"
     jobid_list = parse_jobids(jobids_input)
     print("jobIDs to proceed = ", jobid_list)
 
@@ -181,8 +181,8 @@ def switch_log_request(jobids_input, keywords_input, username, password):
                                     if allow_duplicate == "yes":
                                         line_with_keyword_list.append(line)
                                         # To display testcase names on the report
-                                        if "TESTCASE START -" in line:
-                                            print("\t" + f'{bcolors.BOLD}{line}{bcolors.ENDC}')
+                                        if "TESTCASE START" in line:
+                                            print("\t" + f'{bcolors.OKBLUE}{line}{bcolors.ENDC}')
                                             result_file.write("\t" + line + "\n")
                                         else:
                                             print("\t\t\t" + f'{bcolors.FAIL}{line}{bcolors.ENDC}')
@@ -190,8 +190,8 @@ def switch_log_request(jobids_input, keywords_input, username, password):
                                     else:
                                         if line not in line_with_keyword_list:
                                             line_with_keyword_list.append(line)
-                                            if "TESTCASE START -" in line:
-                                                print("\t" + f'{bcolors.BOLD}{line}{bcolors.ENDC}')
+                                            if "TESTCASE START" in line:
+                                                print("\t" + f'{bcolors.OKBLUE}{line}{bcolors.ENDC}')
                                                 result_file.write("\t" + line + "\n")
                                             else:
                                                 print("\t\t\t" + f'{bcolors.FAIL}{line}{bcolors.ENDC}')
